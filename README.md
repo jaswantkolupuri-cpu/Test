@@ -1,5 +1,7 @@
 # toybox
 
+![CI](https://github.com/jaswantkolupuri-cpu/Test/actions/workflows/ci.yml/badge.svg)
+
 A tiny collection of Python utility functions — math helpers, string helpers, and a small CLI.
 This repo exists as a test fixture (real commits, real branches, real pull requests) rather than
 a production library.
