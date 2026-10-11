@@ -24,3 +24,12 @@ def divide(a, b):
 def power(base, exponent):
     """base raised to the integer exponent."""
     return base ** exponent
+
+
+def clamp(value, low, high):
+    """value limited to the inclusive range [low, high]."""
+    if value < low:
+        return low
+    if value > high:
+        return high
+    return value
