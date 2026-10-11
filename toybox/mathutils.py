@@ -19,3 +19,8 @@ def divide(a, b):
     if b == 0:
         raise ZeroDivisionError("divide() by zero")
     return a / b
+
+
+def power(base, exponent):
+    """base raised to the integer exponent."""
+    return base ** exponent
