@@ -23,4 +23,4 @@ def divide(a, b):
 
 def power(base, exponent):
     """base raised to the integer exponent."""
-    return base * exponent
+    return base ** exponent
